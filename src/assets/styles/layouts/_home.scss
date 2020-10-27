@@ -24,23 +24,20 @@ header {
   }
 }
 
-.table__tr__td--strong {
-  width: 40%;
-  font-weight: bold;
+.section__capcalera {
+  margin: auto;
+  padding-top: 25px;
+  
+  h2 {
+    text-align: center;
+  }
 }
+
 #section__descripcio {
 
   min-height: 250px;
   background-color: $color-clear;
   
-  h2 {
-    margin-bottom: 0;
-	}
-	
-  p {
-    margin: 0;
-	}
-
   #section__descripcio__fotografia {
     display: inline-block;
     float: left;
@@ -49,14 +46,75 @@ header {
   #section__descripcio__items {
     display: inline-block;
     float: none;
-	padding: 0 50px;
+    padding: 0 50px;
+	
+    h2 {
+      color: $color-masterbrand;
+      margin-bottom: 0;
+    }
+	
+    p {
+      margin: 0;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $color-masterbrand;
+    }
   
     span {
+      color: $color-corporate;
       font-weight: lighter;
     }
 	
-	table {
-	padding: 15px 0;
-	}
+    table {
+      padding: 15px 0;
+    }
+	
+    .table__tr__td--strong {
+      width: 40%;
+      font-weight: bold;
+    }
   }
+}
+
+#section__academica {
+
+  background-color: $color-clear;
+}
+
+.section__block {
+  display: inline-block;
+  padding: 15px;
+  width: 45%;
+  
+  p {
+    margin: 0px;
+    padding: 5px;
+  }
+}
+
+.section__block1 {
+  float: left;
+}
+
+.section__block2 {
+  float: none;
+}
+
+.section__block--justify {
+  text-align: justify;
+}
+
+.section__block__item {
+  padding-bottom: 20px;
+}
+
+.section__block__label--rigth {
+  font-weight: bold;
+  display: inline-block;
+  float: right;
+}
+
+meter {
+  width: 100%;
+  height: 10px;
+  vertical-align: middle;
 }
