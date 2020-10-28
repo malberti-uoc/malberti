@@ -7,3 +7,6 @@ $color-corporate: #444;
 $color-masterbrand: #f00;
 $color-bg: color.scale($color-corporate, $lightness: 95%);
 $color-clear: #fff;
+
+$breakpoint-tablet: 768px;
+$breakpoint-smartphone: 480px;

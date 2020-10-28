@@ -1,5 +1,9 @@
 @import "variables";
 
+/* ------------------------------------ *\
+  #BODY
+\* ------------------------------------ */
+
 body {
   max-width: 960px;
   margin: auto;
@@ -9,8 +13,11 @@ body {
   color: $color-corporate;
 }
 
-header {
+/* ------------------------------------ *\
+  #HEADER
+\* ------------------------------------ */
 
+header {
   padding-bottom: 30px;
 
   h1 {
@@ -18,12 +25,9 @@ header {
   }
 }
 
-.section__subtitle {
-  clear: left;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-}
+/* ------------------------------------ *\
+  #SECTION__CONTENT
+\* ------------------------------------ */
 
 .section__content {
   background-color: $color-clear;
@@ -34,8 +38,8 @@ header {
     margin-bottom: 0;
   }
   
-  p {
-    margin: 0;
+  .image--33 {
+    width: 33%;
   }
   
   .content__block {
@@ -52,16 +56,6 @@ header {
     padding: 0 0 10px 0;
   }
   
-  .content--padding-5 {
-    margin: 0;
-    padding: 5px 0;
-  }
-  
-  .content--padding-20 {
-    margin: 0;
-    padding: 20px;
-  }
-  
   .content--italic {
     font-style: italic;
   }
@@ -74,6 +68,11 @@ header {
   .block__right {
     float: none;
     width: 45%;
+  }
+  
+  .block__socials {
+    float: none;
+    width: 50%;
   }
   
   .block__item__label--right {
@@ -93,7 +92,53 @@ header {
   }
 }
 
-/* Globals */
+/* ------------------------------------ *\
+  #SECTION__SUBTITLE
+\* ------------------------------------ */
+
+.section__subtitle {
+  clear: left;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* ------------------------------------ *\
+  #DEFINITON_LISTS
+\* ------------------------------------ */
+
+dl {
+  margin: 0;
+  padding: 0;
+  
+  dt {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  dd {
+    margin: 0;
+    padding: 20px;
+  }
+}
+
+/* ------------------------------------ *\
+  #LISTS
+\* ------------------------------------ */
+
+ul {
+  list-style-type: none;
+  text-align: right;
+
+  li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+}
+
+/* ------------------------------------ *\
+  #GLOBALS
+\* ------------------------------------ */
 
 .content--font-bolder {
   font-weight: bold;
@@ -104,7 +149,7 @@ header {
 }
 
 .block--underline {
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
   padding: 0 0 10px 0;
   border-bottom: 1px solid $color-masterbrand;
 }
@@ -115,4 +160,92 @@ header {
 
 .block--red {
   border-bottom: 1px solid $color-masterbrand;
+}
+
+/* ------------------------------------ *\
+  #LINKS
+\* ------------------------------------ */
+
+a:hover {
+  opacity: 0.5;
+}
+
+/* ------------------------------------ *\
+  #MEDIA_QUERIES_MAX_768
+\* ------------------------------------ */
+
+@media (max-width: $breakpoint-tablet) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .section__content {
+    min-height: auto;
+
+    img {
+      margin: auto;
+    }
+
+    .image--33 {
+      width: 50%;
+    }
+  
+    .block__left {
+      float: left;
+      width: 100%;
+    }
+
+    .block__right {
+      clear: left;
+      width: 100%;
+    }
+	
+    .block__socials {
+      clear: left;
+      width: 100%;
+    }
+  }
+  
+  ul {
+    padding: 0;
+    text-align: left;
+  }
+}
+
+/* ------------------------------------ *\
+  #MEDIA_QUERIES_MAX_480
+\* ------------------------------------ */
+
+@media (max-width: $breakpoint-smartphone) {
+  .section__content {
+    min-height: auto;
+
+    img {
+      margin: auto;
+    }
+  
+    .image--33 {
+      width: 100%;
+    }
+	  
+    .block__left {
+      float: left;
+      width: 95%;
+    }
+
+    .block__right {
+      clear: left;
+      width: 95%;
+    }
+	
+    .block__socials {
+      clear: left;
+      width: 100%;
+    }
+  }
+  
+  ul {
+    padding: 0;
+    text-align: left;
+  }
 }
