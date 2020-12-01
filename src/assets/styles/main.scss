@@ -34,6 +34,9 @@ body {
   font-family: $font-family-montserrat;
   font-size: 16px;
   color: $color-white;
+  background-image: url("./../images/bg-vida2021.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 /* ------------------------------------ *\
@@ -71,7 +74,7 @@ footer {
   color: $color-black;
   
   .footer__top {
-    padding: 30px 0;
+    padding: 30px;
     border-bottom: 1px solid $color-black;
   }
   
@@ -150,7 +153,7 @@ p {
   }
   
   header {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 	
     img.logotip {
       display: block;
@@ -174,6 +177,7 @@ p {
 	
     .col {
       padding: 0 0 30px 0;
+	  text-align: left !important;
     }
   }
 }

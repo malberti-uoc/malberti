@@ -1,16 +1,6 @@
 @import "variables";
 
 /* ------------------------------------ *\
-  #HOME
-\* ------------------------------------ */
-
-.background-picture {
-  background-image: url("./../images/bg-vida2021.jpg");
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-}
-
-/* ------------------------------------ *\
   #GRID
 \* ------------------------------------ */
 
@@ -113,7 +103,7 @@ a:hover {
 
 @media (max-width: $breakpoint-smartphone) {
   main {
-    padding: 10px;
+    padding: 20px;
   
     .grid-container {
       display: grid;
