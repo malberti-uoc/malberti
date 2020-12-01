@@ -53,29 +53,14 @@ body {
 }
 
 /* ------------------------------------ *\
-  #MEDIA_QUERIES_MAX_768
-\* ------------------------------------ */
-
-@media (max-width: $breakpoint-tablet) {
-  body {
-    max-width: 960px;
-    margin: auto;
-    padding: 30px;
-    font-family: $font-family-sans-serif;
-    color: #fff;
-  }
-}
-
-/* ------------------------------------ *\
   #MEDIA_QUERIES_MAX_480
 \* ------------------------------------ */
 
 @media (max-width: $breakpoint-smartphone) {
-  body {
-    max-width: 960px;
-    margin: auto;
-    padding: 30px;
-    font-family: $font-family-sans-serif;
-    color: #fff;
+  
+  .grup {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
   }
 }

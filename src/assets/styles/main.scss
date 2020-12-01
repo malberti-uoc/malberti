@@ -123,3 +123,55 @@ p {
   margin: 0;
   padding-bottom: 0.5rem;
 }
+
+/* ------------------------------------ *\
+  #MEDIA_QUERIES_MAX_768
+\* ------------------------------------ */
+
+@media (max-width: $breakpoint-tablet) {
+  body {
+    width: 100%;
+    margin: auto;
+    font-family: $font-family-sans-serif;
+    color: #fff;
+  }
+}
+
+/* ------------------------------------ *\
+  #MEDIA_QUERIES_MAX_480
+\* ------------------------------------ */
+
+@media (max-width: $breakpoint-smartphone) {
+  body {
+    width: 100%;
+    margin: auto;
+    font-family: $font-family-sans-serif;
+    color: #fff;
+  }
+  
+  header {
+    font-size: 1.1rem;
+	
+    img.logotip {
+      display: block;
+      margin: auto;
+    }
+  }
+	
+  .float-right {
+    float: left !important;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  footer {
+    .col {
+      padding: 0 0 30px 0;
+    }
+  }
+}
