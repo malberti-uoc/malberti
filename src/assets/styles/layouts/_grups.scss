@@ -1,0 +1,81 @@
+@import "variables";
+
+/* ------------------------------------ *\
+  #BODY
+\* ------------------------------------ */
+
+body {
+  margin: auto;
+  font-family: $font-family-montserrat;
+  font-size: 16px;
+  color: $color-white;
+  background-image: url("./../images/bg-vida2021.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+/* ------------------------------------ *\
+  #FLEX
+\* ------------------------------------ */
+
+.grups {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grup {
+  width: 30%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.grup__pic {
+  img {
+    width: 100%;
+  }
+}
+
+.grup__content {
+  p {
+    font-size: 0.8rem;
+    padding: 0 5px 5px 5px;
+  }
+}
+	  
+
+/* ------------------------------------ *\
+  #GLOBALS
+\* ------------------------------------ */
+
+.data {
+  color: $color-second;
+}
+
+/* ------------------------------------ *\
+  #MEDIA_QUERIES_MAX_768
+\* ------------------------------------ */
+
+@media (max-width: $breakpoint-tablet) {
+  body {
+    max-width: 960px;
+    margin: auto;
+    padding: 30px;
+    font-family: $font-family-sans-serif;
+    color: #fff;
+  }
+}
+
+/* ------------------------------------ *\
+  #MEDIA_QUERIES_MAX_480
+\* ------------------------------------ */
+
+@media (max-width: $breakpoint-smartphone) {
+  body {
+    max-width: 960px;
+    margin: auto;
+    padding: 30px;
+    font-family: $font-family-sans-serif;
+    color: #fff;
+  }
+}

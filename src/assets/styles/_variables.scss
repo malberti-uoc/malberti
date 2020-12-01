@@ -2,11 +2,11 @@
 
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
+$font-family-montserrat: 'Montserrat', sans-serif;
 
-$color-corporate: #444;
-$color-masterbrand: #f00;
-$color-bg: color.scale($color-corporate, $lightness: 95%);
-$color-clear: #fff;
+$color-white: #fff;
+$color-second: #ccc;
+$color-black: #000;
 
 $breakpoint-tablet: 768px;
 $breakpoint-smartphone: 480px;

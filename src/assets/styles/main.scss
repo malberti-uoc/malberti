@@ -10,6 +10,7 @@
  * see commented examples below
  */
  
+@import "~bootstrap/scss/bootstrap.scss";
 @import "@fortawesome/fontawesome-free/css/all.css";
 
 /**
@@ -18,3 +19,107 @@
  */
 
 @import "layouts/home";
+@import "layouts/grups";
+
+/**
+ * Common CSS
+ */
+ 
+/* ------------------------------------ *\
+  #BODY
+\* ------------------------------------ */
+
+body {
+  margin: auto;
+  font-family: $font-family-montserrat;
+  font-size: 16px;
+  color: $color-white;
+}
+
+/* ------------------------------------ *\
+  #HEADER
+\* ------------------------------------ */
+
+header {
+  margin: 0;
+  padding: 30px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 1.5rem;
+  color: $color-black;
+  
+  .header__left {
+    display: inline;
+    float: left;
+  }
+  
+  .header__right {
+    display: inline;
+    float: none;
+    text-align: right;
+  }
+}
+
+/* ------------------------------------ *\
+  #FOOTER
+\* ------------------------------------ */
+
+footer {
+  margin: 0;
+  padding: 30px;
+  background-color: #fff;
+  color: $color-black;
+  
+  .footer__top {
+    padding: 30px 0;
+    border-bottom: 1px solid $color-black;
+  }
+  
+  .footer__bottom {
+    padding: 30px 30px 0 30px;
+  }
+  
+  .col {
+    padding: 0 30px;
+  }
+  
+  .logo {
+    width: 25%;
+  }
+}
+
+/* ------------------------------------ *\
+  #LINKS
+\* ------------------------------------ */
+
+a:link {
+  color: $color-black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $color-black;
+}
+
+/* ------------------------------------ *\
+  #GLOBALS
+\* ------------------------------------ */
+
+h1 {
+  font-size: 5.5rem;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.25rem;
+  padding: 5px;
+  margin: 0;
+  text-align: left;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
