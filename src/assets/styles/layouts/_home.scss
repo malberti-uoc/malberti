@@ -167,13 +167,7 @@ a:hover {
       grid-area: 6 / 1 / span 1 / span 1;
     }
   }
-}
-
-/* ------------------------------------ *\
-  #MEDIA_QUERIES_MAX_480
-\* ------------------------------------ */
-
-@media (max-width: $breakpoint-smartphone) {
+  
   ul {
     margin: 0;
     padding: 0;
