@@ -148,6 +148,33 @@ p {
     font-family: $font-family-sans-serif;
     color: #fff;
   }
+  
+  header {
+    font-size: 1.25rem;
+	
+    img.logotip {
+      display: block;
+      margin: auto;
+    }
+  }
+  
+  footer {
+    font-size: 0.75rem;
+	
+    .col {
+      padding: 0 0 30px 0;
+      text-align: left !important;
+    }
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    padding: 0 0 10px 0;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
 }
 
 /* ------------------------------------ *\
@@ -175,13 +202,6 @@ p {
     float: left !important;
   }
   
-  h1 {
-    font-size: 2rem;
-    padding: 0 0 10px 0;
-    margin: 0;
-    text-align: center;
-  }
-  
   footer {
     font-size: 0.75rem;
 	
@@ -189,5 +209,14 @@ p {
       padding: 0 0 30px 0;
       text-align: left !important;
     }
+  }
+  
+  h1 {
+    font-size: 2rem;
+    padding: 0 0 10px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
   }
 }
