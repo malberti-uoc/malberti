@@ -1,0 +1,52 @@
+@import "variables";
+
+/* ------------------------------------ *\
+  #GLOBALS
+\* ------------------------------------ */
+
+.article {
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
+blockquote {
+  padding: 20px 0 20px 50px;
+}
+
+.data {
+  padding: 0 10px 10px 10px;
+}
+
+img.news {
+  width: 100%;
+  padding-top: 25px;
+}
+
+.playlist {
+  margin: 0;
+  padding: 0;
+  
+  li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 15px 0 0;
+	
+    .time {
+      font-size: 0.75rem;
+      font-weight: normal;
+      font-style: italic;
+    }
+  }
+}
+
+/* ------------------------------------ *\
+  #MEDIA_QUERIES_MAX_480
+\* ------------------------------------ */
+
+@media (max-width: $breakpoint-smartphone) {
+  .grup {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+}
