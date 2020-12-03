@@ -4,58 +4,12 @@
   #BOOTSTRAP
 \* ------------------------------------ */
 
-.btn:focus {
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
+.row__accordion {
+  padding: 15px 0;
 }
 
-.btn.focus {
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
-}
-
-.btn-primary:focus {
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
-}
-
-.btn-primary.focus {
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
-}
-
-.btn-primary:active {
-  color: #fff !important;
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
-}
-
-.btn-primary:link {
-  color: #fff !important;
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
-}
-
-.btn-primary:visited {
-  color: #fff !important;
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
-}
-
-.btn-primary:hover {
-  color: #fff !important;
-  background-color: transparent !important;
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
-  opacity: 0.5;
-}
-
-.btn-primary {
-  padding: 25px 0 0 0;
-  color: #fff;
-  background-color: transparent !important;
-  border-color: transparent !important;
-  box-shadow: 0 0 0 0 #000;
+.btn {
+  margin: 10px;
 }
 
 .card {
@@ -64,5 +18,5 @@
 
 img.espais {
   width: 100%;
-  padding-top: 25px;
+  padding-top: 15px;
 }
