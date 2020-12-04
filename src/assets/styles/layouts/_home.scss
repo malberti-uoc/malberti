@@ -5,7 +5,7 @@
 \* ------------------------------------ */
 
 @supports not (display: grid) {
-  .grid-container {
+  .grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,63 +17,63 @@ main {
   margin: auto;
   padding: 50px;
   
-  .grid-container {
+  .grid {
     display: grid;
     grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
     grid-gap: 10px;
   }
 
-  .grid-container > div {
+  .grid > div {
     text-align: center;
     padding: 0 5px;
     font-size: 2rem;
   }
   
-  .item1 {
+  .grid__item1 {
     grid-area: 1 / 1 / span 1 / span 1;
   }
   
-  .item2 {
+  .grid__item2 {
     grid-area: 1 / 2 / span 1 / span 1;
   }
 
-  .item4 {
+  .grid__item4 {
     grid-area: 1 / 4 / span 1 / span 1;
   }
  
-  .item5 {
+  .grid__item5 {
     grid-area: 1 / 5 / span 1 / span 1;
   }
   
-  .item7 {
+  .grid__item7 {
     grid-area: 2 / 1 / span 1 / span 4;
   }
   
-  .item11 {
+  .grid__item11 {
     grid-area: 2 / 5 / span 1 / span 1;
   }
     
-  .item12 {
+  .grid__item12 {
     grid-area: 2 / 6 / span 1 / span 1;
   }
   
-  .item13 {
+  .grid__item13 {
     grid-area: 3 / 1 / span 1 / span 2;
   }
   
-  .item15 {
+  .grid__item15 {
     grid-area: 3 / 3 / span 1 / span 1;
   }
   
-  .item16 {
+  .grid__item16 {
     grid-area: 3 / 4 / span 1 / span 1;
   }
   
-  .item17 {
+  .grid__item17 {
     grid-area: 3 / 5 / span 1 / span 1;
   }
   
-  .item18 {
+  .grid__item18 {
     grid-area: 3 / 6 / span 1 / span 1;
   }
 }
@@ -113,61 +113,61 @@ a:hover {
   main {
     padding: 20px;
   
-    .grid-container {
+    .grid {
       display: grid;
       grid-template-columns: 50% 50%;
       grid-gap: 10px;
     }
 
-    .grid-container > div {
+    .grid > div {
       text-align: center;
       padding: 0 5px;
       font-size: 2rem;
     }
 	
-    .item {
+    .grid__item {
       img {
         width: 95%;
       }
     }
   
-    .item1 {
+    .grid__item1 {
       grid-area: 2 / 1 / span 1 / span 1;
     }
   
-    .item2 {
+    .grid__item2 {
       grid-area: 2 / 2 / span 1 / span 1;
     }
 
-    .item4 {
+    .grid__item4 {
       grid-area: 3 / 1 / span 1 / span 1;
     }
  
-    .item5 {
+    .grid__item5 {
       grid-area: 3 / 2 / span 1 / span 1;
     }
   
-    .item7 {
+    .grid__item7 {
       grid-area: 1 / 1 / span 1 / span 2;
     }
   
-    .item11 {
+    .grid__item11 {
       grid-area: 4 / 1 / span 1 / span 1;
     }
     
-    .item12 {
+    .grid__item12 {
       grid-area: 4 / 2 / span 1 / span 1;
     }
   
-    .item15 {
+    .grid__item15 {
       grid-area: 5 / 1 / span 1 / span 1;
     }
   
-    .item16 {
+    .grid__item16 {
       grid-area: 5 / 2 / span 1 / span 1;
     }
   
-    .item18 {
+    .grid__item18 {
       grid-area: 6 / 1 / span 1 / span 1;
     }
   }
@@ -190,61 +190,61 @@ a:hover {
   main {
     padding: 20px;
   
-    .grid-container {
+    .grid {
       display: grid;
       grid-template-columns: 100%;
       grid-gap: 10px;
     }
 
-    .grid-container > div {
+    .grid > div {
       text-align: center;
       padding: 0 5px;
       font-size: 2rem;
     }
 	
-    .item {
+    .grid__item {
       img {
         width: 95%;
       }
     }
   
-    .item1 {
+    .grid__item1 {
       grid-area: 2 / 1 / span 1 / span 1;
     }
   
-    .item2 {
+    .grid__item2 {
       grid-area: 3 / 1 / span 1 / span 1;
     }
 
-    .item4 {
+    .grid__item4 {
       grid-area: 4 / 1 / span 1 / span 1;
     }
  
-    .item5 {
+    .grid__item5 {
       grid-area: 5 / 1 / span 1 / span 1;
     }
   
-    .item7 {
+    .grid__item7 {
       grid-area: 1 / 1 / span 1 / span 2;
     }
   
-    .item11 {
+    .grid__item11 {
       grid-area: 6 / 1 / span 1 / span 1;
     }
     
-    .item12 {
+    .grid__item12 {
       grid-area: 7 / 1 / span 1 / span 1;
     }
   
-    .item15 {
+    .grid__item15 {
       grid-area: 8 / 1 / span 1 / span 1;
     }
   
-    .item16 {
+    .grid__item16 {
       grid-area: 9 / 1 / span 1 / span 1;
     }
   
-    .item18 {
+    .grid__item18 {
       grid-area: 10 / 1 / span 1 / span 1;
     }
   }
